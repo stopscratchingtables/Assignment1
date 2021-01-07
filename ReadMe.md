@@ -3,7 +3,7 @@
 Name: Hugo Von Louwen Dorosan <br />
 Class: IT01 <br />
 ID: 10202923 <br />
-Website URL: https://stopscratchingtables.github.io/Assignment-1/index.html
+Website URL: https://stopscratchingtables.github.io/Assignment1/index.html
 
 Music... It's a way of escape from life, work, and the everyday struggles.
 Just when you think music hasn't gotten even better, wait till you listen to the greatest band of all time, "THE BEATLES!" They produced music for a period of time in the 1950s to 1960s. Their music is perfect for making you feel at comfort and home after a long day or simply just to brighten up your morning! <br />
@@ -28,6 +28,7 @@ While designing this website, I thought about the user's needs, wants and the di
 - WireFrame
   1. Sketched it by creating a wireframe for my website on Adobe Xd. 
   2. Kept in mind of the designs for both, PC and mobile.
+  3. _Changes to WireFrame:_
 
 
 ## Features
@@ -46,7 +47,9 @@ Now, Let me introduce to you My Features!
   
   A Slideshow to preview the different albums, along with the album's picture. <br />
   For better reading, the text's background turns white once hovering and on mobile devices, background is automatically white
-  _Note: No templates have been used in the creation of the slides. Only credit for the creation of the slideshow is a youtube tutorial on the different animation techniques on CSS_
+  _Note: No templates have been used in the creation of the slides. Only credit for the creation of the slideshow is a youtube tutorial on the different animation techniques on   CSS_
+  
+  Explanation of classes and css for albums.html
 
 - __Social Media Bar (Found on the bottom of all html pages)__
   A Directory to their social media pages to catch up with their latest news
@@ -64,6 +67,8 @@ Now, Let me introduce to you My Features!
 - CSS
 - Videos
 - Audios
+- Adobe Xd
+- Adobe PhotoShop
 
 ## Testing
 
