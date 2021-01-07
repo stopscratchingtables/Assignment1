@@ -54,8 +54,6 @@ Now, Let me introduce to you My Features!
 - ___HISTORY.HTMl___
    A Timeline of what the beatles have gone through over the years they were together
 
-  _Note: No templates have been used in the creation of the slides. Only credit for the creation of the slideshow is a youtube tutorial on the different animation techniques on CSS_
-
 - ___SHOP.HTML___
    Filled with merchandise of the beatles.
    Once the purchase button is clicked, a payment forum shows up for payment.
