@@ -1,0 +1,399 @@
+ul{list-style: none;}
+  
+  body {
+    font-family: BOOTLE;
+    background: url(misc/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .nav-list {
+    background: white;
+    box-shadow: 0px 0px 10px var(--clr-gray200);
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-item {
+    list-style: none;
+    margin-right: 2rem;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: black;
+    transition: all 200ms ease-in;
+  }
+  
+  .nav-item a:hover {
+    color: var(--clr-primary-dark);
+  }
+  
+  .nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+  }
+  
+  .btn-primary {
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+  }
+  
+  .btn-primary:hover {
+    background: var(--clr-primary-hover);
+  }
+
+  /*=============================================================*/
+  /* Home Page */
+  /*=============================================================*/
+
+  .container-h {
+      position: relative;
+      top: 25px;
+      text-align: center;
+      font-size: 100px;
+      text-shadow: 2px 2px white;
+      height: 300px;
+  }
+
+  .container2-h > .video-h {
+      position: relative;
+      background-color: black;
+      height: 700px;
+      right: 15px;
+  }
+
+
+  .video-h {
+    position: relative;
+    background-color: black;
+    height: 700px;
+    right: 15px;
+    bottom: 40px; 
+  } 
+
+  .video-h > .videotext {
+      color: burlywood;
+      text-align: center;
+      background-color: black;
+  }
+
+  .videosrc {
+    position: relative;
+    display: block; 
+    top: 30px;
+    margin: auto
+  }
+
+  .member-cards {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 50px;
+    right: 15px;
+    margin: 0 auto;
+    text-align: center;
+    color: burlywood;
+    background-color: black;
+  }
+
+
+  .socials-h {
+      position: relative;
+      background-color: white;
+      bottom: 65px;
+      right: 15px;
+  }
+
+@media (max-width:800px) {
+  .member-cards {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 50px;
+    right: 15px;
+    margin: 0 auto;
+    text-align: center;
+    color: burlywood;
+    background-color: black;
+  }
+
+  .container-h {
+    font-size: 400%;
+  }
+
+  .videosrc {
+    height: 50%;
+    width: 90%;
+  }
+}
+
+  /*=============================================================*/
+  /* Album Page */
+  /*=============================================================*/
+
+  /* slideshow */
+
+.section2 {
+  position: relative;
+  top: 450px;
+}
+
+.slidershow{
+width: 85%;
+height: 650px;
+overflow: hidden;
+}
+
+.middle{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.navigation{
+position: absolute;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+}
+.bar{
+width: 50px;
+height: 10px;
+border: 2px solid #fff;
+margin: 6px;
+cursor: pointer;
+transition: 0.4s;
+}
+.bar:hover{
+background: #fff;
+}
+
+input[name="r"]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides{
+width: 500%;
+height: 100%;
+display: flex;
+}
+
+.slide{
+width: 20%;
+transition: 0.6s;
+align-items: center;
+}
+
+.s1, .s2 {
+background-color: burlywood;
+}
+
+.slide img{
+width: 100%;
+height: 100%;
+filter: blur(8px);
+-webkit-filter: blur(8px);
+}
+
+.slide .text {
+font-family: "Roboto", sans-serif;
+width: 100%;
+position: relative;
+top: -575px;
+color: black;
+text-align: center;
+text-shadow: white 2px 1px;
+}
+
+.text:hover {
+  background-color: white;
+}
+
+#music {
+display: flex;
+flex-direction: column;
+position: relative;
+top: -600px;
+align-items: center;
+
+margin: auto;
+width: 75%;
+padding: 10px;
+}
+
+#r1:checked ~ .s1{
+margin-left: 0;
+}
+#r2:checked ~ .s1{
+margin-left: -20%;
+}
+#r3:checked ~ .s1{
+margin-left: -40%;
+}
+#r4:checked ~ .s1{
+margin-left: -60%;
+}
+#r5:checked ~ .s1{
+margin-left: -80%;
+}
+
+.socials-a {
+position: relative;
+background-color: white;
+top: 450px;
+}
+
+@media (max-width:800px) {
+  .section2 {
+    right: 16px;
+    width: 110%;
+  }
+
+  .slide .text {
+    width: 100%;
+    position: relative;
+    top: -675px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    }
+
+    #music {
+      top: -675px;
+    }
+}
+
+
+  /*=============================================================*/
+  /* History Page */
+  /*=============================================================*/
+
+.video2 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 600px;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.socials-hist {
+  position: relative;
+  background-color: white;
+  top: 100px;
+}
+
+.hist-text {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
+  width: 90%;
+  right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 8%;
+}
+
+.hist-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border:5px solid #fff;
+}
+
+.partOne, .partTwo, .partThree, .partFour, .partFive {
+  margin-top: 5%;
+  font-size: 20px;
+  width: 85%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partOne {
+  padding-top: 8%;
+}
+
+@media (max-width: 640px) {
+  .video2, .hist-text {
+    width: 100%;
+  }
+}
+
+  /*=============================================================*/
+  /* Shop Page */
+  /*=============================================================*/
+
+.shop-container {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: burlywood;
+
+  width: 95%;
+  margin: 50px auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  background-color: white;
+  border: 4px solid black;
+  margin-bottom: 50px;
+  width: 305px;
+  transition: 0.3s;
+}
+
+.card-picture {
+  text-align: center;
+  width: 310px;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+
+}
+
+/* CREDIT CARD FORUM */
+
+.creditcardforum {
+  position: relative;
+  color: white;
+  border: 4px solid chocolate;
+  background-color: rgba(0,0,0, 0.4);
+  width: 80%;
+  text-align: center;
+  left: 10%;
+}
+
+.socials {
+  position: relative;
+  background-color: white;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+}
