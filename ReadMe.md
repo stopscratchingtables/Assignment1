@@ -28,9 +28,11 @@ While designing this website, I thought about the user's needs, wants and the di
 - WireFrame
   1. Sketched it by creating a wireframe for my website on Adobe Xd. 
   2. Kept in mind of the designs for both, PC and mobile.
-  3. _Changes to WireFrame:_
-
-
+  3. _Changes to WireFrame:
+  - Changed Layout of "history.html" to a simpler layout as it was too complicated
+  - Addition of a "creditcardforum.html" page that is linked together with shop.html
+  
+  
 ## Features
 
 Now, Let me introduce to you My Features!
@@ -61,6 +63,12 @@ Now, Let me introduce to you My Features!
    Filled with merchandise of the beatles.
    Once the purchase button is clicked, a payment forum shows up for payment.
    
+- ___CREDITCARDFORUM.HTML___
+   Purchase form for items bought on shop.html
+   
+### New features to be added
+- The ability to purchase more than one item
+- A better quality navbar
 
 ## Technologies Used
 - HTML
@@ -78,8 +86,11 @@ jigsaw.w3.org/css-validator/<br/>
 
 ## Credits
 
+Normalize.CSS: <br/>
+https://necolas.github.io/normalize.css/<br />
+
 ### Content
-The text for the website has been taken from:
+The text for the website has been taken from:<br/>
 - https://en.wikipedia.org/wiki/George_Harrison
 - https://en.wikipedia.org/wiki/John_Lennon
 - https://en.wikipedia.org/wiki/Paul_McCartney
@@ -92,9 +103,12 @@ The text for the website has been taken from:
 ### Media
 The photos used in this site were obtained from:<br/>
 https://www.thebeatles.com/ <br/><br/>
+
 Fonts used were obtained from:<br/>
-https://fonts.google.com/ <br/><br/>
-Pictures obtained from: <br/>
+https://fonts.google.com/ <br/>
+https://www.fontspace.com/bootle-font-f2373<br/><br/>
+
+Pictures(_albums.html_): <br/>
 - https://en.wikipedia.org/wiki/George_Harrison <br/>
 - https://en.wikipedia.org/wiki/John_Lennon <br/>
 - https://en.wikipedia.org/wiki/Paul_McCartney <br/>
@@ -102,16 +116,28 @@ Pictures obtained from: <br/>
 - https://en.wikipedia.org/wiki/The_Beatles_(album) <br/>
 - https://en.wikipedia.org/wiki/Help! <br/>
 - https://en.wikipedia.org/wiki/Abbey_Road <br/><br/>
+
+Pictures(_social medias_): <br/>
+- www.facebook.com <br/>
+- www.instagram.com <br/>
+- www.spotify.com <br/><br/>
+
+Pictures(_shop.html_): <br/>
+- https://shopee.sg/Beatles-Abbey-Road-T-Shirt-Black-Classic-Rock-Music-Album-Cover-i.96961142.1649470534?gclid=CjwKCAiAxeX_BRASEiwAc1QdketTJEDEUsjLbXy8J9t1nJCjQjkAo3k6AQyX2lG0_Ejy0uJSnVBGNBoCR6MQAvD_BwE
+- https://www.amazon.com/The-Beatles-Mens-Sweatshirt/dp/B07YHFM461
+- https://www.ebay.com/c/2114347607<br />
+
 Videos:<br/>
-https://www.youtube.com/watch?v=UEmSjDuTxyc<br/>
-https://www.youtube.com/watch?v=7FvwxYfjdKE<br/><br/>
+- https://www.youtube.com/watch?v=UEmSjDuTxyc<br/>
+- https://www.youtube.com/watch?v=7FvwxYfjdKE<br/><br/>
+
 Music:<br/>
 https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2
 
 ### Tutorials and Guides
 | Name        | Link           |
 | ------------- |:-------------:|
-| CSS Animation Tutorials     | https://www.youtube.com/watch?v=zHUpx90NerM |
+| Youtube Tutorials     | https://www.youtube.com/playlist?list=PLYHL00c8NrmzAzAnoTK7Puyc_rWSt-Fx6 |
 | Icons      | www.thenounproject.com |
 | Creating Vertical Lines on HTML/CSS | https://www.youtube.com/watch?v=cil-8UHk2y8 |
 | Creation of 3d Boxes | https://www.youtube.com/watch?v=kR0W6PtO1O0 |
@@ -120,4 +146,9 @@ https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2
 
 ### Acknowledgements
 - My Aunt for teaching me Nav Bar
-- https://www.thebeatles.com/
+- Original Band Inspiration: <br />
+  https://www.thebeatles.com/
+- Slideshow Inspiration: <br/>
+  https://usabilitygeek.com/sliders-web-design-use/#:~:text=A%20slider%20is%20a%20term,content%20or%20showcase%20professional%20portfolios.
+- Payment Forum Inspiration: <br/>
+https://www.jotform.com/answers/436701-How-can-I-make-the-price-of-my-program-automatically-appear-in-the-payment-section-once-a-customer-selects-the-appropriate-School-Code
