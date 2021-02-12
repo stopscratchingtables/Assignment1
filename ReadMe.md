@@ -3,7 +3,7 @@
 Name: Hugo Von Louwen Dorosan <br />
 Class: IT01 <br />
 ID: 10202923 <br />
-Website URL: https://stopscratchingtables.github.io/Assignment1/index.html
+Website URL: https://stopscratchingtables.github.io/ID_Louwen_Assignment1/
 
 Music... It's a way of escape from life, work, and the everyday struggles.
 Just when you think music hasn't gotten even better, wait till you listen to the greatest band of all time, "THE BEATLES!" They produced music for a period of time in the 1950s to 1960s. Their music is perfect for making you feel at comfort and home after a long day or simply just to brighten up your morning! <br />
